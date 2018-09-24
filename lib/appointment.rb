@@ -15,7 +15,7 @@ class Appointment
   
   def patient
     @@all.select do |appointment|
-      appointment.patient = @patient
+      appointment.patient
     end
   end
 end
